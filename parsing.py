@@ -9,7 +9,7 @@ def main():
 # passing this line to parseLine function for storing information
 def readFile():
 
-	f = open("ratings1.dat","r")
+	f = open("ratings.dat","r")
 	for line in f:
 	    parseLine(line[:-1]);
 
