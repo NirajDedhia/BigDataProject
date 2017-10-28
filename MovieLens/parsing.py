@@ -11,8 +11,8 @@ import xlwt;
 # to .csv file.
 def main():
 
-	# readFileForParsing("../BIGFILES/movies.dat");
-	# readFileForParsing("../BIGFILES/ratings.dat",1);
+	# readFileForParsing("../../BIGFILES/movies.dat");
+	# readFileForParsing("../../BIGFILES/ratings.dat",1);
 	readFileForParsing("movies.dat");
 	readFileForParsing("ratings.dat",1);
 	calculateAverageRating();
