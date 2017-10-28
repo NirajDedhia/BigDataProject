@@ -1,0 +1,1 @@
+Copy the genres.list, ratings.list file in the same directory
