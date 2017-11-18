@@ -77,9 +77,9 @@ def covertToExcel():
 	row = 1;
 
 	for movieID in movieDictionary:
-		sheet.write(row, 0, movieID);
+		sheet.write(row, 0, (int)movieID) );
 		sheet.write(row, 1, movieDictionary[movieID]['NAME']);
-		sheet.write(row, 2, movieDictionary[movieID]['RATING']);
+		sheet.write(row, 2, (float)movieDictionary[movieID]['RATING']) );
 		sheet.write(row, 3, movieDictionary[movieID]['GENRE']);
 		row += 1;
 
